@@ -1,1 +1,137 @@
 # Island-foods
+<!DOCTYPE html>
+<html lang="dv" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ކެފޭ މެނޫ</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: system-ui, -apple-system, sans-serif;
+        }
+
+        body {
+            background-color: #f7f9fc;
+            color: #333;
+            padding: 20px;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 2px solid #eee;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            color: #2c3e50;
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+
+        header p {
+            color: #7f8c8d;
+            font-size: 14px;
+        }
+
+        .category-title {
+            font-size: 18px;
+            color: #e67e22;
+            margin: 20px 0 10px 0;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #e67e22;
+        }
+
+        .menu-item {
+            background: white;
+            padding: 12px 15px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .item-info h3 {
+            font-size: 16px;
+            color: #2c3e50;
+        }
+
+        .item-info p {
+            font-size: 12px;
+            color: #95a5a6;
+            margin-top: 3px;
+        }
+
+        .price {
+            font-weight: bold;
+            color: #27ae60;
+            font-size: 15px;
+            white-space: nowrap;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 12px;
+            color: #bdc3c7;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>އައިލެންޑް ކެފޭ</h1>
+        <p>ތާޒާ ކާބޯތަކެތި އަދި ތަފާތު ރަހަތައް</p>
+    </header>
+
+    <!-- ސައި އަދި ކޮފީ -->
+    <div class="category-title">ސައި އަދި ކޮފީ</div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <h3>ކަޅުސައި</h3>
+            <p>ތާޒާ އިނގުރު ސައި</p>
+        </div>
+        <div class="price">5.00 ރުފިޔާ</div>
+    </div>
+
+    <div class="menu-item">
+        <div class="item-info">
+            <h3>ކަޕުޗީނޯ</h3>
+            <p>އެސްޕްރެސޯ އަދި ކިރު</p>
+        </div>
+        <div class="price">35.00 ރުފިޔާ</div>
+    </div>
+
+    <!-- ހެދިކާ -->
+    <div class="category-title">ހެދިކާ</div>
+
+    <div class="menu-item">
+        <div class="item-info">
+            <h3>ބާޖިޔާ</h3>
+            <p>މަސް އަދި ފިޔާ</p>
+        </div>
+        <div class="price">3.00 ރުފިޔާ</div>
+    </div>
+
+    <div class="menu-item">
+        <div class="item-info">
+            <h3>ކަވާބު</h3>
+            <p>މަހާއި ހުންނު ކަވާބު</p>
+        </div>
+        <div class="price">3.00 ރުފިޔާ</div>
+    </div>
+
+    <footer>
+        <p>ޝުކުރިއްޔާ! އަލުން ޒިޔާރަތްކުރައްވާ!</p>
+    </footer>
+
+</body>
+</html>
